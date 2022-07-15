@@ -1,154 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="header__container">
-        <div class="header__logo">
-          <img src="img/1200px-FC_Barcelona.svg.png" alt="Barsa" width="200" />
-        </div>
-        <nav class="header__menu menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="club_history.html" class="menu__link">Club history</a>
-            </li>
-            <li class="menu__item">
-              <a href="current_team_roste.html" class="menu__link"
-                >Current team roster</a
-              >
-            </li>
-            <li class="menu__item">
-              <a href="club_trophies.html" class="menu__link">Club trophies</a>
-            </li>
-            <li class="menu__item">
-              <a href="club_legends.html" class="menu__link">Club legends</a>
-            </li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <img class="barsa-logo" src="img/1200px-FC_Barcelona.svg.png" alt="Barsa" />
       </div>
-    </header>
-    <main class="main">
-      <section class="get-start">
-        <div class="get-start__container">
-          <div class="get-start__text">
-            <div class="text__title">
-              <h1 class="main__title">Futbol Club Barcelona</h1>
-            </div>
+      <div class="form">
+        <form action="#">
+          <div class="email-password__form">
+            <label for="email">Email
+              <input type="email" name="email" id="email" value="" placeholder="email" required /></label>
+            <label for="password">Password
+              <input type="password" name="userpassw" id="password" value="" placeholder="password" required /></label>
+            <button type="submit" class="button-sabmit">Submit</button>
           </div>
-          <div class="form">
-            <form action="#">
-              <fieldset class="email-password__form">
-                <label for="email"
-                  >Email
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    value=""
-                    placeholder="email"
-                    required
-                /></label>
-
-                <label for="password"
-                  >Password
-                  <input
-                    type="password"
-                    name="userpassw"
-                    id="password"
-                    value=""
-                    placeholder="password"
-                    required
-                /></label>
-                <button type="submit" class="button-sabmit">Submit</button>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </section>
-      <div class="news__title">
-        <h2 class="title__news">Main news</h2>
+        </form>
       </div>
-      <section class="news__text">
-        <div class="second__container">
-          <div class="text-information">
-            <h3 class="kessie__title">
-              It's official: Franck Yannick Kessié - is a Barcelona player
-            </h3>
-            <p class="kessie">
-              "Yes, I spoke with Ibrahimovic. He gave me advice and told me that
-              it is a very nice place. He told me to work hard and to do
-              everything," Kessie said as quoted by AS.
-            </p>
-            <p class="kessie">
-              "I can give my confidence to my teammates. I have to work with
-              them, I'm in a hurry to start. I want to play with my teammates,"
-              Kessie added.
-            </p>
-            <p class="kessie">
-              "When a player starts playing it is to go forward. I have reached
-              an important place. I want to show what I can do. I have to meet
-              the technical bench and colleagues."
-            </p>
-            <p class="kessie">
-              Barcelona president Joan Laporta is optimistic Kessie will have a
-              vital role in the team.
-            </p>
-            <p class="kessie">
-              "We are very satisfied because our coach [Xavi Hernandez] wanted a
-              player like him. It is the first addition of this summer. He is a
-              midfielder who also has arrival and the ability to protect the
-              defense," the administrator said.
-            </p>
-          </div>
-          <div class="img-kessie">
-            <img src="img/img.kessie.jpeg" alt="kessie" width="800" />
-          </div>
+      <div class="header__menu menu">
+        <a href="club_history.html" class="menu__link">Club history</a>
+        <a href="current_team_roste.html" class="menu__link">Current team roster</a>
+        <a href="club_trophies.html" class="menu__link">Club trophies</a>
+        <a href="club_legends.html" class="menu__link">Club legends</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="get-start">
+      <div class="get-start__container">
+        <div class="text__title">
+          <h1 class="main__title">Futbol Club Barcelona</h1>
         </div>
-      </section>
+        <div class="news__title">
+          <h2 class="title__news">Main news</h2>
+        </div>
+      </div>
+    </section>
+    <section class="news__text">
+      <div class="second__container">
+        <div class="text-information">
+          <h3 class="kessie__title">
+            It's official: Franck Yannick Kessié - is a Barcelona player
+          </h3>
+          <p class="kessie">
+            "Yes, I spoke with Ibrahimovic. He gave me advice and told me that
+            it is a very nice place. He told me to work hard and to do
+            everything," Kessie said as quoted by AS.
+          </p>
+          <p class="kessie">
+            "I can give my confidence to my teammates. I have to work with
+            them, I'm in a hurry to start. I want to play with my teammates,"
+            Kessie added.
+          </p>
+          <p class="kessie">
+            "When a player starts playing it is to go forward. I have reached
+            an important place. I want to show what I can do. I have to meet
+            the technical bench and colleagues."
+          </p>
+          <p class="kessie">
+            Barcelona president Joan Laporta is optimistic Kessie will have a
+            vital role in the team.
+          </p>
+          <p class="kessie">
+            "We are very satisfied because our coach [Xavi Hernandez] wanted a
+            player like him. It is the first addition of this summer. He is a
+            midfielder who also has arrival and the ability to protect the
+            defense," the administrator said.
+          </p>
+        </div>
+        <div class="img-kessie">
+          <img src="img/img.kessie.jpeg" alt="kessie" class="kessie-img" />
+        </div>
+      </div>
+    </section>
+    <section class="text__news">
+      <div class="next__container">
+        <div class="information-text">
+          <h3 class="Christensen__title">
+            It's official: Andreas Christensen - is a Barcelona player
+          </h3>
+          <p class="Christensen">
+            The 26-year-old has signed a four-year deal at Barcelona and he
+            cannot wait to get started at his new club having envisaged
+            playing for the Catalan giants when he was just eight years old.
+          </p>
+          <p class="Christensen">
+            ‘I’m very proud,’ he said. ‘When I was 8 years old I wrote my
+            dreams for the future on a piece of paper: to be a professional
+            footballer and play for Barca
+          </p>
+          <p class="Christensen">
+            ‘I would like to thank the President, Jordi Cruyff and Mateu
+            Alemany for making this possible.
+          </p>
+          <p class="Christensen">
+            The former Borussia Monchengladbach star insists he hasn’t spoken
+            to the pair about joining him, but would be delighted were he to
+            be reunited.
+          </p>
+          <p class="Christensen">
+            He said: ‘I spoke with Marcos Alonso and Azpilicueta and told them
+            that I wanted to play for Barca.
+          </p>
+          <p class="Christensen">‘I want to see them again next season.’</p>
+        </div>
+        <div class="img-chistensen">
+          <img src="img/img.christensen.png" alt="christensen" class="chistensen-img" />
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
 
-      <section class="text__news">
-        <div class="next__container">
-          <div class="information-text">
-            <h3 class="Christensen__title">
-              It's official: Andreas Christensen - is a Barcelona player
-            </h3>
-            <p class="Christensen">
-              The 26-year-old has signed a four-year deal at Barcelona and he
-              cannot wait to get started at his new club having envisaged
-              playing for the Catalan giants when he was just eight years old.
-            </p>
-            <p class="Christensen">
-              ‘I’m very proud,’ he said. ‘When I was 8 years old I wrote my
-              dreams for the future on a piece of paper: to be a professional
-              footballer and play for Barca
-            </p>
-            <p class="Christensen">
-              ‘I would like to thank the President, Jordi Cruyff and Mateu
-              Alemany for making this possible.
-            </p>
-            <p class="Christensen">
-              The former Borussia Monchengladbach star insists he hasn’t spoken
-              to the pair about joining him, but would be delighted were he to
-              be reunited.
-            </p>
-            <p class="Christensen">
-              He said: ‘I spoke with Marcos Alonso and Azpilicueta and told them
-              that I wanted to play for Barca.
-            </p>
-            <p class="Christensen">‘I want to see them again next season.’</p>
-          </div>
-          <div class="img-chistensen">
-            <img src="img/img.christensen.png" alt="christensen" width="800" />
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>

@@ -1,91 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-color: rgb(41, 41, 90);
-  }
-  
-  .header__container {
-    align-items: center;
-    display: flex;
-    margin: 0px 0px 0px 40px;
-  }
-  
-  .menu {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .menu__list {
-    display: flex;
-    padding: 0px 0px 0px 150px;
-    font-size: larger;
-  }
-  
-  .menu__item {
-    margin: 0px 60px 0px 30px;
-  }
-  
-  .menu__link {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: rgb(236, 20, 20);
-  }
-  
-  .main__title {
-    color: rgb(69, 180, 112);
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 2cm;
-    text-align: center;
-  }
-  
-  .slogan__title {
-    color: rgb(69, 180, 112);
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 1cm;
-    text-align: center;
-  }
-  
-  .get-start__container {
-    display: flex;
-    align-items: center;
-  }
-  .email-password__form {
-    color: rgb(18, 225, 225);
-    background-color: rgb(117, 9, 12);
-  }
-  
-  form {
-    padding: 0px 0px 0px 100px;
-  }
-  
-  .button-sabmit {
-    background-color: rgb(45, 182, 36);
-  }
-  
-  .news__title {
-    text-align: center;
-    color: rgb(9, 9, 241);
-  }
-  
-  .second__container {
-    display: flex;
-  }
-  .text-information {
-    color: aqua;
-    font-size: larger;
-  }
-  .kessie__title {
-    color: rgb(203, 27, 27);
-  }
-  
-  .next__container {
-    display: flex;
-    margin: 100px 0px 0px 0px;
-  }
-  
-  .information-text {
-    color: aqua;
-    font-size: larger;
-  }
-  .Christensen__title {
-    color: rgb(203, 27, 27);
-  }
+  background-color: rgb(41, 41, 90);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 1520px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+
+.barsa-logo {
+  max-width: 100px;
+}
+
+.menu__link {
+  color: rgb(254, 2, 2);
+  padding: 0 10px;
+}
+
+.email-password__form {
+  color: rgb(18, 225, 225);
+
+}
+
+.button-sabmit {
+  background-color: rgb(45, 182, 36);
+}
+
+#email {
+  background-color: rgb(49, 49, 72);
+}
+
+#password {
+  background-color: rgb(49, 49, 72);
+}
+
+.main__title {
+  color: rgb(69, 180, 112);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2cm;
+  text-align: center;
+}
+
+.slogan__title {
+  color: rgb(69, 180, 112);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1cm;
+  text-align: center;
+}
+
+.get-start__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.news__title {
+  text-align: center;
+  color: rgb(9, 9, 241);
+}
+
+.news__text {
+  width: 1520px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.second__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+}
+
+.kessie-img {
+  max-width: 600px;
+}
+
+.text-information {
+  max-width: 570px;
+  color: aqua;
+  font-size: larger;
+}
+
+.kessie__title {
+  color: rgb(203, 27, 27);
+}
+
+.text__news {
+  width: 1520px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.next__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+}
+
+.information-text {
+  max-width: 570px;
+  color: aqua;
+  font-size: larger;
+}
+
+.chistensen-img {
+  max-width: 600px;
+}
+
+.Christensen__title {
+  color: rgb(203, 27, 27);
+}
