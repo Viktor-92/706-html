@@ -54,13 +54,6 @@ body {
   text-align: center;
 }
 
-.slogan__title {
-  color: rgb(69, 180, 112);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 1cm;
-  text-align: center;
-}
 
 .get-start__container {
   display: flex;
